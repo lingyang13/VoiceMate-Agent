@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\AIAgent">
+      <UniqueIdentifier>{46032d60-2a05-407f-9a12-ec34bfd005ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AIAgent">
+      <UniqueIdentifier>{4960f6d1-2fe5-4f57-9de8-524f08bc018b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRecorder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WhisperASR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIChat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonTTS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QTWidgetsApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIChat_Bear.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIChat_CatGirl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIAgent.cpp">
+      <Filter>源文件\AIAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="AIChat_ComputerManager.cpp">
+      <Filter>源文件\AIAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="AIChat_ComputerBoss.cpp">
+      <Filter>源文件\AIAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="AIChat_ComputerEmployee.cpp">
+      <Filter>源文件\AIAgent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioRecorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WhisperASR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIChat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonTTS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIChat_Bear.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIChat_CatGirl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIAgent.h">
+      <Filter>头文件\AIAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="AIChat_ComputerManager.h">
+      <Filter>头文件\AIAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="AIChat_ComputerBoss.h">
+      <Filter>头文件\AIAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="AIChat_ComputerEmployee.h">
+      <Filter>头文件\AIAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\Bear.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Bear_Thinking.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Bear_Saying.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\CatGirl.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\CatGirl_Saying.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\CatGirl_Thinking.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\button\Button_10.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\PlagueDoctor.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QTWidgetsApp.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWindow.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="chatwithai.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

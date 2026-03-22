@@ -1,0 +1,15 @@
+D:\C++projects\chatwithai\chatwithai\AIAgent.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIAgent.obj
+D:\C++projects\chatwithai\chatwithai\AIChat.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIChat.obj
+D:\C++projects\chatwithai\chatwithai\AIChat_Bear.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIChat_Bear.obj
+D:\C++projects\chatwithai\chatwithai\AIChat_CatGirl.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIChat_CatGirl.obj
+D:\C++projects\chatwithai\chatwithai\AIChat_ComputerBoss.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIChat_ComputerBoss.obj
+D:\C++projects\chatwithai\chatwithai\AIChat_ComputerEmployee.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIChat_ComputerEmployee.obj
+D:\C++projects\chatwithai\chatwithai\AIChat_ComputerManager.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIChat_ComputerManager.obj
+D:\C++projects\chatwithai\chatwithai\AIManager.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AIManager.obj
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\AudioRecorder.obj
+D:\C++projects\chatwithai\chatwithai\CommonUtils.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\CommonUtils.obj
+D:\C++projects\chatwithai\chatwithai\Main.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\Main.obj
+D:\C++projects\chatwithai\chatwithai\PythonTTS.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\PythonTTS.obj
+D:\C++projects\chatwithai\chatwithai\QTWidgetsApp.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\QTWidgetsApp.obj
+D:\C++projects\chatwithai\chatwithai\WhisperASR.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\WhisperASR.obj
+D:\C++projects\chatwithai\chatwithai\x64\Release\qt\moc\moc_QTWidgetsApp.cpp;D:\C++projects\chatwithai\chatwithai\x64\Release\moc_QTWidgetsApp.obj

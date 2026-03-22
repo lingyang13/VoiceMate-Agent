@@ -1,0 +1,16 @@
+﻿  AIChat.cpp
+  AudioRecorder.cpp
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(160,30): warning C4244: “初始化”: 从“_Rep”转换到“int”，可能丢失数据
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(160,30): warning C4244:         with
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(160,30): warning C4244:         [
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(160,30): warning C4244:             _Rep=__int64
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(160,30): warning C4244:         ]
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(224,63): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(224,63): warning C4267:         with
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(224,63): warning C4267:         [
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(224,63): warning C4267:             _Ty=int
+D:\C++projects\chatwithai\chatwithai\AudioRecorder.cpp(224,63): warning C4267:         ]
+  Main.cpp
+  正在生成代码...
+AIChat.obj : error LNK2019: 无法解析的外部符号 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl AIChat::getSpeaker2Prompt(void)" (?getSpeaker2Prompt@AIChat@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)，函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl AIChat::ask(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?ask@AIChat@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z) 中引用了该符号
+D:\C++projects\chatwithai\x64\Debug\chatwithai.exe : fatal error LNK1120: 1 个无法解析的外部命令

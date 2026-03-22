@@ -1,0 +1,492 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2026-02-11 10:53:40",
+  "files": {
+    "D:\\C++projects\\chatwithai\\chatwithai\\chatwithai.vcxproj": {
+      "before": "7VltT+M4EN7PJ91vuCraE/QDDVDEwjXNim05VF15EeXlCxJyE0O9m8SR7VC6t/cT7j/fJH5J0qaUij1ACD6gdDyezIxnnplx/v3twwfn830Y1O4w44RGbWujsW7VcORRn0S3bSsRN2s71mf311+cE0a/Yk/UuvgGJYE4Q+wWC962viQk8K0aSIng10iI+A/b5t4Ih4g3QuIxyumNaHg0tH18hwMaY2aHfJhuszfX15sWSK/VnJ7A4QGjSVzroyEO2pZ6YYdGN+Q2YUiAglwyA3vVaq0XeUHi47bVxcPk9scliZqbegfsKYlyMx7HLhNTVdI/5yRA4oay0M2EOLb5LTmAIP1RtX2Bcqc4wIjjBeoprpdQUHrvfnvrqb4DEf+L5x5S7dF+W1I5xzYRKgMWAgBCWUxKQXsQ0CEK8jC96Kg4uZAZ5m58aqw79gxZRdVfeDKmzJdBl+50bE1SHErcQUJ89+8m8odDb9tfG37aQmtbO9tobXdnE63hrSba3RnubO9u7P5jQjXbo8ScUiqOUIh5jDzseiMkxkSMEHHs8opihyTw6ZjLpNepYExaT016kCUVk+mRe0xlfRhTJmrKqrb1cfWio6DlBIlR/erQIEgnjhsKfBox+J5bNbvqJCAjfZKCRdta+bhays/6j4+rWvv6Sru9UsCJFUsDT2mLToEyeJxNYuzuxXFAvAyXprI0W1auO+c4e0ufDBliBHNXsAQ79ixdbdAKnlEacCzcu42tZp5FmqqYOyPEkCcwGwDneUQAuEF2iTrX9+D0/Dhqy7ithGDP57gbyKyf5rnLEQ0wuOCWofA4FiQk37OjVMczd/lFHW+Q+fmc/naiFQD/+dz2VmK1txxAl4FZbi4VyP17gaO01wTAEtBjqlIJ1TV7UcZbLA2lzQNAO+xLSH7cDo1xgxGGbtVaCuVKxSHTCYrYrD8AyFlaNLuETZerQrVpJMCm61YBa/E94YKvQqVaWs5K3ZSsPvVQAPWoiwTS9cOUx0e59imOmioH764y88qchiNDonc3zXeTjqi35yidZyVcS1P/EKWjsknadNiAbpdEWSsruQuwsVxnq0OtE3RoGJMAKwLg2SViEcBwPx3N3ew/NJslomx4gHXQ7XdG2PumOiTz0zCcMAz472HOKct15+5l76i52bru7n85P2hdd46PBsf9/dbvq3P46+mkUC3JvCrt0WE6R5GHD6HlVSpNUw37ni9HAhSoKwIAa7jMoFk/3mhceQkLrknEBQqCKyJvEVpA/8ppdMXBPwGG5exywZD1b8d+ULrUAXryKd87fRJ9y89hkAwHEw6H7oIRHFpTx85Jxo4DHGG4CZETRU+6IB11lP1zl42AXFU5j0yKjkhNK3kiIMOidRVbKgR3cYwjH+6Q0lknHcAY1hsLK3U4/1yZ4p56C14r1QjjBjy3xnzzurmZPXpsEgv1PA58FKvnKA2GgHzPmJB/h2IiV4r6F9+iU8I2xyAH/Dxui63IE5NRw1l2l7SSj5RTIbFcOv6ZRF569lnSplZAmKo4qFwyR9WLBINYJ55m0yNpxYLZZLJdzgPmp2GYl7Iy+Y9eKvlfReI5zxJlheFQR/c06CwXYeaQlz3ztwr1gI8a9eHxZCJGNGpurGtiEWt6sloU4VWmyqsISIiDHHw1OpdLIgAvryoIKS23POUqml0hyyBE/sYSEI9HhMM9VIbcYxKFYfYEgn9aDWjF+qRS0UV1S4ro83nOilBqcJ+WrRrNX3k9eLFKUIr5ivScbn4Kmf6YNvAdG6BTe8cGiLLydyIgmLzOP1Du9eCOHr6KxrGe+ObwJT6hp9iDj0IAkQvZDxGJFnNJ+D47GyxmvZTgvDc4LfLOfAurMFll2IzJo5LBs1wlgxcw54YsYCyYYThnjVjuqlPIL+DaHHUzWJrrzWWn+qRVfXNpPtC5/wE=",
+      "after": "7VrrU9tGEO/HTmf6P6gaWvBMsQAzBOJHhhhCPcW8TOALM8xZOvAlkk6VToDT9H/v3lOSLeG4JJAm5AOR7/b29vbx272Vfvzthx9ar+4C37rBcUJo2LZX6yu2hUOXeiS8btspu1retF91fv6pdRTTd9hl1g6+QqnPTlF8jVnStl+nxPdsC7iE8GvEWPTScRJ3hAOU1APixjShV6zu0sDx8A32aYRjJ0iGfJmztrLSsIG7ZbV6DAd7MU0jax8Nsd+21YZdGl6R6zRGDARMJDGQl81avdD1Uw+37R08TK8/npOwsaZXwJoCq46gaTnFQS4K/9c68hG7onHQEUxajvktKWBA6qNs+QzhTrCPUYJniKeonkJAqb27jfWH6g5YfBHN3SfaJ+ttTuFajvFQ6bDgAODKbFxw2j2fDpGfuelZV/nJmYywzuqL+krLmRpWXvUnHt/S2JNOx1e2HD2kKBS7vZR4nb8byBsO3Q1vefhiHS2vb26g5a3NNbSM1xtoa3O4ubG1uvWPcVWxRrE5oZQdoAAnEXJxxx0hdkvYCJGWU5xR5BAEHr1NZNDrUDBHWuFHupdk4njH7GxwedNYAe+YON4x6ycCUSwILI/wmG/biwtLZry22G4vLlqHJ9Yvu3ckYclSYfbiL1ZnEpoWa3ZnYak/EOyU2nZIDBhG43HtwnBsOeZRGpaHdmZZhU5BRGNmKTZte2HprKsg8AixUe2ib5CuG0V1BZL1CDgltuWUeUzxgAUcqX1cWNJaFgfO4dmirQGysESHahHkTscR7mxHkU9cgZ8TaCKmlW3eJljssk+GMYoJTjosTnHLmR5XC7SAp5T6CWadm9X1RhbtelQRd0coRi7D8QAo34YEEgzwLoxySuGrk7ovmGPCLwo6mFJbAWkfT3FXgACfTXPnI+pjUMF1jILDiJGAfBCmVOapnH5SxZsM8nhK/3a8FRLT46ntW/HV3nwAXQTm6cUmJdQgo1x6suZNNJ7noLsiCU0sgVxUngRUrXvMABcZlNyQLHLMIbXdD3DFvFCaZh64wySEfok98mjxJfjrM8jAUjvI7G3xIqhtG3MfUPaGpiFcaF5jKP+xyvFtu5smjAailmh2/S4NIuLjgrFm1yPVVcsxk67FaxYF3H2cJOgaW9I3UeiCmH+Q65FtneI7lhP5peXS1PeskDLLp5DnsZUVQb/zZ+HsTQv+Eze4AI0FsbiCweKY10T+uG5c1JGnzlc+hSJ3947hkN8XjdN2oDoWASjoKhcOoArAnv2J1JD0RCkwGGG4aRZ0PV9gaJVOhzkUNzEveKEunCzhchVYPQWyktjHpgCdmw8HBBWZ+2AzH2q0HcSQrqm0KaAimhbaOCsvYrVYyqs/yQwPUayOJXEtXjTeOi3l3CopGPh7VG0OBp89lhUQ53N4rED/71qxWosF1fI47SPeptOgI1pxcIMlobh/S+r/XJVojZukqQYA2s5RHELNs8/bgh3xFy6QhUGZC4F0sLPfHWH3vbr1mJ+G4CjGUUxdSJo0zmRPOue9g8Za83Jn9/XbveZl9/BgcLi/2/x1qYK+xm+g5ZzMVrwkg84gT8l9uMYqkSZHDfm2J/sYyFftSd2E4HfsPRxiaG1i7w2UE8nFRL3Hi5Nas0jTrNcv3DT2L0mYMOT7F0Q2Pfn4u4SGFwmo1McwLXqhZlj/bjn3CmTE7kOTl4DHSJXKgid/8ayelyzgdq/LJO0C+yR8n1l/kA4H4wS6vh1QXQKX3JaTDRkx9OEFOPak4nlXSGm9ctowyE4rOxvjvPqnlOmTYV5BJUtKGO/gCIcedM25RbkJY6wX5mZq4HWZMPk1tSZsK20aRHV4bt4ma5eNNfHoxuOIqedb30OReg65C/rkgyBC3g2KiJzJy5/fRVvBMWaQLc0sWvLFG9hlYmKui0lFmTDpEvOBwJs0dLntBVTwU4CnKz8onTKm6oUshnAhribTza2SCbPIYIzsLJifhqAKKCTkHDwh5FTHpjxL9bw83FcRu61HcdSSouthTmr8ZF63ec5R+VSm0xVktaMxG9Gwsbqi5/MI15NpLg/qJkCr3fx/FAYAkVnW0GlFvcbg+QYUBBkjKctkfCxTHqfKa66El9FctmMhg9yOSAJXcpFybkkYBOIJGH+25NWMtLE567y4BUE0TD1mKivcHx6GEToNfeWJ7ClTWOaBJRGuq77Hq5ohkp4RKavdM+uUoMgzInF4mlFcZ7U2kBo0yb5g2e7By1H4bCaK9LW8gi71CD3B0MX1AJhnkvcRCWdTyaRxejqYTXouU8L24CRPO/WxRPHbCXEUFddTR4YOt2xmVlAVDjyDODvIDMLcMQzl9CHme8fE5HcI+jj3d3Kzln2hD1rxein3jYN+r5Trv+vOsunTq7cY0413821I518="
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2026-02-11 10:53:40</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Converting custom build steps to Qt/MSBuild items]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>..]]></Span><Span><![CDATA[\curl_install\include;..\json\single_include;..\json\include;</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;..]]></Span><Span><![CDATA[\curl_install\include;..\json\single_include;..\json\include;</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>..]]></Span><Span><![CDATA[\curl_install\include;..\json\single_include;..\json\include;..\include;..\Python310\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;..]]></Span><Span><![CDATA[\curl_install\include;..\json\single_include;..\json\include;..\include;..\Python310\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>..]]></Span><Span><![CDATA[\curl_install\include;..\json\single_include;..\json\include;..\include;..\Python310\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;..]]></Span><Span><![CDATA[\curl_install\include;..\json\single_include;..\json\include;..\include;..\Python310\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\C++projects\chatwithai\chatwithai\chatwithai.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--0wMC2PKuj9D2Slb9/xLNEmic34IvQvpu3C35iRVAcUM=-->
