@@ -3,3 +3,16 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.vsidx filter=lfs diff=lfs merge=lfs -text
 .vs/**/* filter=lfs diff=lfs merge=lfs -text
+
+# 强制 GitHub 将项目识别为 C++
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.hpp linguist-language=C++
+*.c linguist-language=C
+
+# 将 Python 文件标记为文档（不参与语言统计）
+*.py linguist-detectable=false
+*.py linguist-vendored=true
+
+# 或者将 Python 文件标记为生成的文件
+*.py linguist-generated=true
