@@ -11,6 +11,13 @@
 *.c linguist-language=C
 *.cxx linguist-language=C++
 
+# 将 Python 文件标记为文档（不参与语言统计）
+*.py linguist-detectable=false
+*.py linguist-vendored=true
+
+# 或者将 Python 文件标记为生成的文件
+*.py linguist-generated=true
+
 # 忽略 TCL 文件（不参与语言统计）
 *.tcl linguist-detectable=false
 *.tcl linguist-vendored=true
