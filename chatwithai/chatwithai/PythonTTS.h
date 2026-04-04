@@ -1,14 +1,14 @@
-#pragma once
+ï»¿#pragma once
 #include <string>
 
 class PythonTTS {
 public:
-    PythonTTS(const std::string& api_key);  // ¹¹Ôìº¯Êı´«Èë API key
+    PythonTTS(const std::string& api_key);  // æ„é€ å‡½æ•°ä¼ å…¥ API key
     ~PythonTTS() = default;
 
-    void setApiKey(const std::string& api_key);  // ÉèÖÃ API key µÄ·½·¨
+    void setApiKey(const std::string& api_key);  // è®¾ç½® API key çš„æ–¹æ³•
 
-	// ºÏ³ÉÎÄ±¾ÎªÓïÒô£¬·µ»ØÒôÆµÎÄ¼şÂ·¾¶
+	// åˆæˆæ–‡æœ¬ä¸ºè¯­éŸ³ï¼Œè¿”å›éŸ³é¢‘æ–‡ä»¶è·¯å¾„
     std::string synthesize(const std::string& text,
         const std::string& voice = "Andre",
         const std::string& model = "qwen3-tts-flash");

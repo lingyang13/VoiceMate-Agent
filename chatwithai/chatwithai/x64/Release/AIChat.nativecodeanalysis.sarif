@@ -1,0 +1,295 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "switch 标签之间的尾随 fallthrough (es.78)。"
+          },
+          "analysisTarget": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/aichat.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/aThis/uC++proj/chatwithai_SchoolChange/json/single_include/nlohmann/json.hpp"
+                },
+                "region": {
+                  "startLine": 8061,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::json_abi_v3_12_0::detail::lexer<nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_12_0::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>,nlohmann::json_abi_v3_12_0::detail::iterator_input_adapter<std::_String_const_iterator<std::_String_val<std::_Simple_types<char> > > > >::scan_comment",
+                  "decoratedName": "?scan_comment@?$lexer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_12_0@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_12_0@nlohmann@@V?$iterator_input_adapter@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@detail@23@@detail@json_abi_v3_12_0@nlohmann@@AEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "switch 标签之间的尾随 fallthrough (es.78)。"
+          },
+          "analysisTarget": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/aichat.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/aThis/uC++proj/chatwithai_SchoolChange/json/single_include/nlohmann/json.hpp"
+                },
+                "region": {
+                  "startLine": 8098,
+                  "startColumn": 17,
+                  "endLine": 8098,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::json_abi_v3_12_0::detail::lexer<nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_12_0::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>,nlohmann::json_abi_v3_12_0::detail::iterator_input_adapter<std::_String_const_iterator<std::_String_val<std::_Simple_types<char> > > > >::scan_comment",
+                  "decoratedName": "?scan_comment@?$lexer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_12_0@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_12_0@nlohmann@@V?$iterator_input_adapter@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@detail@23@@detail@json_abi_v3_12_0@nlohmann@@AEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "switch 标签之间的尾随 fallthrough (es.78)。"
+          },
+          "analysisTarget": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/aichat.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/aThis/uC++proj/chatwithai_SchoolChange/json/single_include/nlohmann/json.hpp"
+                },
+                "region": {
+                  "startLine": 8061,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::json_abi_v3_12_0::detail::lexer<nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_12_0::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>,nlohmann::json_abi_v3_12_0::detail::iterator_input_adapter<char const *> >::scan_comment",
+                  "decoratedName": "?scan_comment@?$lexer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_12_0@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_12_0@nlohmann@@V?$iterator_input_adapter@PEBD@detail@23@@detail@json_abi_v3_12_0@nlohmann@@AEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "switch 标签之间的尾随 fallthrough (es.78)。"
+          },
+          "analysisTarget": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/aichat.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/aThis/uC++proj/chatwithai_SchoolChange/json/single_include/nlohmann/json.hpp"
+                },
+                "region": {
+                  "startLine": 8098,
+                  "startColumn": 17,
+                  "endLine": 8098,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::json_abi_v3_12_0::detail::lexer<nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_12_0::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>,nlohmann::json_abi_v3_12_0::detail::iterator_input_adapter<char const *> >::scan_comment",
+                  "decoratedName": "?scan_comment@?$lexer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_12_0@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_12_0@nlohmann@@V?$iterator_input_adapter@PEBD@detail@23@@detail@json_abi_v3_12_0@nlohmann@@AEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_12_0::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>::m_data。始终初始化成员变量(type.6)。"
+          },
+          "analysisTarget": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/aichat.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/aThis/uC++proj/chatwithai_SchoolChange/json/single_include/nlohmann/json.hpp"
+                },
+                "region": {
+                  "startLine": 21383,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_12_0::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>::{ctor}",
+                  "decoratedName": "??$?0V?$json_ref@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_12_0@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_12_0@nlohmann@@@detail@json_abi_v3_12_0@nlohmann@@$0A@@?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_12_0@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_12_0@nlohmann@@QEAA@AEBV?$json_ref@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_12_0@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_12_0@nlohmann@@@detail@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_12_0::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>::m_data"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35225.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/aichat.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "806898ce7d2599ed04dca82fb5efcb077fb53633a407d4b609ee7ed410711629"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/aThis/uC++proj/chatwithai_SchoolChange/json/single_include/nlohmann/json.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "eee78ec0002d8e5a648207a9b9cf00c92858497ca732fad4909d5fea129cc0da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/aichat.h"
+          },
+          "hashes": {
+            "sha-256": "8c6a7218452d3c8ebaafc3977ef522f47f3260a3d47cc99ac7949246aeae4dd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/curl.h"
+          },
+          "hashes": {
+            "sha-256": "7340507154f4df4353b08bf2e2629e52f39226ebbde14cd0e3aaf4364221cf44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/curlver.h"
+          },
+          "hashes": {
+            "sha-256": "e19c47da3687d986b5590c211a888826b4faf54c53bd19db9de65c1440d1333b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/system.h"
+          },
+          "hashes": {
+            "sha-256": "73114c1d7abfef1a3a6bf61ed089d7d33a3eada3bc9c1ffa8e2ef4c31a3569fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/easy.h"
+          },
+          "hashes": {
+            "sha-256": "e06a521e4aee7174b52deeb01a5323b56b39dbd692970b09fd0a6a2209a72055"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/multi.h"
+          },
+          "hashes": {
+            "sha-256": "cda673f8b66a6f92106875e3b403cc14070aad683a14cdee7c488382c81d541b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/urlapi.h"
+          },
+          "hashes": {
+            "sha-256": "b5a9e198d11d89c1f5ad74a393963b1cf90736fe816c5eaa0c1d52c85192a8dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/options.h"
+          },
+          "hashes": {
+            "sha-256": "1b79655d1948442bb3cf7118eb2ac8b54493002a48b393ff37b519e853149f1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/header.h"
+          },
+          "hashes": {
+            "sha-256": "199a72e4a6b280c6934ec63a9433b8a4d80d510ccf00cb23b38b4b61583588c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/websockets.h"
+          },
+          "hashes": {
+            "sha-256": "e41c756233d16de30677628048578750f648b313954421eedcdfd1c07d3524fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/curl_install/include/curl/mprintf.h"
+          },
+          "hashes": {
+            "sha-256": "27a0de789ad35b2c406fd4fc04840ff6983da5a028d04ce3864b28b3c0b14c07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/commonutils.h"
+          },
+          "hashes": {
+            "sha-256": "a10a30626b1b81cc559c78c93ab79e73ccf2532d1b0c53dcb4d4342eebea4f46"
+          }
+        }
+      ]
+    }
+  ]
+}

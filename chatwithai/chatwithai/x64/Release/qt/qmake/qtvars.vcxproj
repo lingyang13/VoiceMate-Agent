@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\C++projects\chatwithai\chatwithai\x64\Release\qt\qmake;G:\QT\6.10.2\msvc2022_64\include;G:\QT\6.10.2\msvc2022_64\include\QtWidgets;G:\QT\6.10.2\msvc2022_64\include\QtGui;G:\QT\6.10.2\msvc2022_64\include\QtCore;D:\C++projects\chatwithai\chatwithai\x64\Release\qt\qmake;/include;G:\QT\6.10.2\msvc2022_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>&quot;D:\C++projects\chatwithai_??3.0(?????? ????)\chatwithai\x64\Release\qt\qmake&quot;;G:\QT\6.10.2\msvc2022_64\include;G:\QT\6.10.2\msvc2022_64\include\QtWidgets;G:\QT\6.10.2\msvc2022_64\include\QtGui;G:\QT\6.10.2\msvc2022_64\include\QtCore;&quot;D:\C++projects\chatwithai_??3.0(?????? ????)\chatwithai\x64\Release\qt\qmake&quot;;/include;G:\QT\6.10.2\msvc2022_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>.\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>

@@ -7,14 +7,13 @@ int main(int argc, char* argv[])
 {
     QApplication app(argc, argv);
 
-    app.setApplicationName("ChatNG");
+    app.setApplicationName("VMAgent");
     app.setOrganizationName("LingYang13");
-    app.setApplicationDisplayName("TablePet - 1.0");
+    app.setApplicationDisplayName("TablePet - 3.0");
 
     QTWidgetsApp window;
     window.show();
 
     return app.exec();
 }
-
 

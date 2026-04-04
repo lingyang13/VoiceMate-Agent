@@ -1,8 +1,9 @@
-#pragma once
+﻿#pragma once
 
 #include <QMainWindow>
 #include "ui_MainWindow.h"
 
+#include "QTConfigWindowApp.h"
 #include "AudioRecorder.h"
 #include "WhisperASR.h"
 #include "PythonTTS.h"
@@ -22,7 +23,7 @@ class QTWidgetsApp : public QMainWindow
 
 public:
     QTWidgetsApp(QWidget* parent = nullptr);
-    ~QTWidgetsApp();
+    ~QTWidgetsApp() = default;
 
 protected:
     void mousePressEvent(QMouseEvent* event) override;
@@ -44,6 +45,8 @@ private slots:
 	void onSendTextButtonClicked();
     // 选择电脑管家AI事件
 	void onComputerManagerAiButtonClicked();
+    // 设置菜单按钮事件
+    void onConfigMenuButtonClicked();
 
 
     // 使用聊天AI
@@ -57,6 +60,9 @@ private:
 
     //用于拖动窗口
     QPoint m_dragPosition;
+
+    //应用设置界面
+    QTConfigWindowApp configWindow_ui;
 
 	// 初始化 录音器
     AudioRecorder recorder;
@@ -73,7 +79,7 @@ private:
 	//是否选中电脑管家AI
 	bool isComputerManagerAISelected = false;
 
-	// 初始化 电脑管家AI
+	// 初始化 电脑管家AIAgent
 	AIAgent ai_computerManager;
 
 };

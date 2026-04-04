@@ -1,7 +1,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
 <Qt_DEFINES_>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB</Qt_DEFINES_>
-<Qt_INCLUDEPATH_>G:\QT\6.10.2\msvc2022_64\include;G:\QT\6.10.2\msvc2022_64\include\QtWidgets;G:\QT\6.10.2\msvc2022_64\include\QtGui;G:\QT\6.10.2\msvc2022_64\include\QtCore;G:\QT\6.10.2\msvc2022_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_INCLUDEPATH_>"D:\C++projects\chatwithai_??3.0(?????? ????)\chatwithai\x64\Release\qt\qmake";G:\QT\6.10.2\msvc2022_64\include;G:\QT\6.10.2\msvc2022_64\include\QtWidgets;G:\QT\6.10.2\msvc2022_64\include\QtGui;G:\QT\6.10.2\msvc2022_64\include\QtCore;"D:\C++projects\chatwithai_??3.0(?????? ????)\chatwithai\x64\Release\qt\qmake";G:\QT\6.10.2\msvc2022_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
 <Qt_STDCPP_>stdcpp17</Qt_STDCPP_>
 <Qt_RUNTIME_>MultiThreadedDLL</Qt_RUNTIME_>
 <Qt_CL_OPTIONS_>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8</Qt_CL_OPTIONS_>

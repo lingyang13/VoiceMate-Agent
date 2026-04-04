@@ -37,8 +37,10 @@ std::string AIChat_ComputerManager::getSpeaker2Prompt()
       "action": "powershell",
       "description": "获取桌面路径",
       "content": \"[Environment]::GetFolderPath('Desktop')\"
-}
+    }
   ]
+}
+
 }
 
 [示例2：创建文件夹]
@@ -78,6 +80,39 @@ std::string AIChat_ComputerManager::getSpeaker2Prompt()
       "path" : "C:\\Users\\Administrator\\Desktop\\PY答题\\第一题.py",
       "content" : "for i in range(100, 1001):\n    if i % 2 == 0:\n        print(i)/",
       "depends_on" : ["创建PY答题文件夹"]
+    }
+  ]
+}
+
+[示例5: PowerShell 读取文件内容]
+{
+  "steps": [
+    {
+      "action": "powershell",
+      "description": "读取..文件内容",
+      "content": "$path = 'C:\\Users\\Administrator\\Desktop\\test.txt'; if (Test-Path $path) { Get-Content $path -Raw -Encoding UTF8 } else { Write-Output '文件不存在' }"
+    }
+  ]
+}
+
+[示例6: PowerShell 读取Excel文件内容]
+{
+  "steps": [
+    {
+      "action": "powershell",
+      "description": "读取Excel文件内容",
+      "content": "$excelPath = 'C:\\Users\\Administrator\\Desktop\\data.xlsx'; if (Test-Path $excelPath) { $excel = New-Object -ComObject Excel.Application; $excel.Visible = $false; $workbook = $excel.Workbooks.Open($excelPath); $worksheet = $workbook.Worksheets.Item(1); $usedRange = $worksheet.UsedRange; $data = $usedRange.Value2; Write-Output \"工作表名称: $($worksheet.Name)\"; Write-Output \"行数: $($usedRange.Rows.Count), 列数: $($usedRange.Columns.Count)\"; Write-Output \"========== 数据内容 ==========\"; $output = $data | Out-String -Width 4096; Write-Output $output; $workbook.Close($false); $excel.Quit(); [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null } else { Write-Output '文件不存在' }"
+    }
+  ]
+}
+
+[示例7: PowerShell 读取Word文件内容]
+{
+  "steps": [
+    {
+      "action": "powershell",
+      "description": "读取Word文档内容",
+      "content": "$wordPath = 'C:\\Users\\Administrator\\Desktop\\document.docx'; if (Test-Path $wordPath) { $word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open($wordPath); $content = $doc.Content.Text; Write-Output \"文档名称: $(Split-Path $wordPath -Leaf)\"; Write-Output \"========== 文档内容 ==========\"; Write-Output $content; $doc.Close(); $word.Quit(); [System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null } else { Write-Output '文件不存在' }"
     }
   ]
 }

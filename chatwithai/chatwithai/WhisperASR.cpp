@@ -5,6 +5,7 @@
 #include <cstring>
 #include <windows.h>
 #include <stringapiset.h>
+#include <CommonUtils.h>
 
 // 包含必要的头文件（使用正确的相对路径）
 extern "C" {
@@ -27,12 +28,12 @@ WhisperASR::~WhisperASR() {
 bool WhisperASR::loadModel(const std::string& modelPath) {
     if (ctx_) return true;
 
-    std::cout << "加载语音识别模型: " << modelPath << std::endl;
+    std::cout << CommonUtils::UTF8ToString("加载语音识别模型: ") << modelPath << std::endl;
 
     // 检查文件是否存在
     std::ifstream file(modelPath, std::ios::binary);
     if (!file.is_open()) {
-        std::cerr << "错误：找不到模型文件 " << modelPath << std::endl;
+        std::cerr << CommonUtils::UTF8ToString("错误：找不到模型文件 ") << modelPath << std::endl;
         return false;
     }
     file.close();
@@ -42,11 +43,11 @@ bool WhisperASR::loadModel(const std::string& modelPath) {
     ctx_ = whisper_init_from_file_with_params(modelPath.c_str(), params);
 
     if (ctx_) {
-        std::cout << "✓ 模型加载成功" << std::endl;
+        std::cout << CommonUtils::UTF8ToString("模型加载成功") << std::endl;
         return true;
     }
 
-    std::cerr << "✗ 模型加载失败" << std::endl;
+    std::cerr << CommonUtils::UTF8ToString("模型加载失败") << std::endl;
     return false;
 }
 
@@ -55,7 +56,7 @@ std::string WhisperASR::transcribe(const std::vector<char>& audioData) {
         return "[错误: 没有音频数据]";
     }
 
-    std::cout << "处理音频数据: " << audioData.size() << " 字节" << std::endl;
+    std::cout << CommonUtils::UTF8ToString("处理音频数据: ") << audioData.size() << CommonUtils::UTF8ToString(" 字节") << std::endl;
 
     // 1. 转换16位PCM到32位浮点
     std::vector<float> pcmf32;
@@ -76,7 +77,7 @@ std::string WhisperASR::transcribe(const std::vector<char>& audioData) {
     params.n_threads = 4;    // 使用4个线程
 
     // 3. 运行识别
-    std::cout << "正在识别语音..." << std::endl;
+    std::cout << CommonUtils::UTF8ToString("正在识别语音...") << std::endl;
 
     if (whisper_full(ctx_, params, pcmf32.data(), pcmf32.size()) != 0) {
         return "[识别过程出错]";

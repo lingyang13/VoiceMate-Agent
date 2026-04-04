@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35225.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/whisperasr.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c0718a24fe0f3a7a6d43f6a4b494b3398825f84be7f664aec9ae4edb08fe997e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/whisperasr.h"
+          },
+          "hashes": {
+            "sha-256": "b1840c6f22e8d3c6789e573856690060fa4ac277ac15c215b67559959b87a3b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/include/whisper.h"
+          },
+          "hashes": {
+            "sha-256": "8f3a12d45ccc7c52d6d6f6784fbe365f62f829b478b7f3f21e691a3ef985c3d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/include/ggml.h"
+          },
+          "hashes": {
+            "sha-256": "9e5fd75ab21f13b0bcb3d9573880ead40d0f136888b3c11d231db098ae1902c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/include/ggml-cpu.h"
+          },
+          "hashes": {
+            "sha-256": "7b8ae2a29cc8cdf66ad2b2bb57c3c472136c48f736c2bfc5ebbf2405424f3aa9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/include/ggml-backend.h"
+          },
+          "hashes": {
+            "sha-256": "0139dcf71f2f2f45f9d6bdebe57169cf484144602dbfab871cbe06b5ad0d6914"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/include/ggml-alloc.h"
+          },
+          "hashes": {
+            "sha-256": "ab9a5572847a98ec31ee57fe202f38216be01da3e63e36183d7d8b9f34756a0f"
+          }
+        }
+      ]
+    }
+  ]
+}

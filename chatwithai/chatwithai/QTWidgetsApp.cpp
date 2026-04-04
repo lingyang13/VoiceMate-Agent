@@ -7,14 +7,15 @@
 #include <QMenu>
 #include <CommonUtils.h>
 #include <thread>
+#include <DataSave.h>
 
 #pragma comment(lib, "winmm.lib")  // 链接winmm库
 
 QTWidgetsApp::QTWidgetsApp(QWidget* parent)
 	: QMainWindow(parent), 
-    ai_manager("Enter your Deepseek ApiKey"),  //传入Deepseek ApiKey
-    tts("Enter your qwen3-tts-flash ApiKey"),         //传入qwen3-tts-flash ApiKey
-	ai_computerManager("Enter your Deepseek ApiKey")  ////传入Deepseek ApiKey
+    ai_manager(""),
+    tts(""),
+	ai_computerManager("")
 {
     ui.setupUi(this);
 
@@ -23,25 +24,30 @@ QTWidgetsApp::QTWidgetsApp(QWidget* parent)
     if (!asr.loadModel(modelPath)) {
         modelPath = u8"models/ggml-base.bin";
         if (!asr.loadModel(modelPath)) {
-            std::cerr << "无法加载语音识别模型！" << std::endl;
-            std::cerr << "请确保文件存在: " << modelPath << std::endl;
+            std::cerr << CommonUtils::UTF8ToString("无法加载语音识别模型！") << std::endl;
+            std::cerr << CommonUtils::UTF8ToString("请确保文件存在: ") << modelPath << std::endl;
             std::cin.ignore(); //停留
             return ;
         }
     }
-    std::cout << u8"   ✓ 语音识别就绪\n" << std::endl;
+    std::cout << CommonUtils::UTF8ToString("语音识别就绪\n") << std::endl;
 
     // 初始化录音
-    std::cout << u8"2. 初始化录音器..." << std::endl;
+    std::cout << CommonUtils::UTF8ToString("初始化录音器...") << std::endl;
     AudioRecorder recorder;
-    std::cout << u8"   ✓ 录音器就绪\n" << std::endl;
+    std::cout << CommonUtils::UTF8ToString(" 录音器就绪\n") << std::endl;
+
+    //初始化apikey: ai管理器、tts、ai智能体
+    ai_manager.setApiKey(DataSave::Get().GetDeepSeekApiKey());
+    tts.setApiKey(DataSave::Get().GetQwen3TtsApiKey());
+    ai_computerManager.setApiKey(DataSave::Get().GetDeepSeekApiKey());
 
     // 设置窗口大小
     setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
 	setFixedSize((ai_manager.getCurrentPetImage(Normal).size().width() / 8)+20, (ai_manager.getCurrentPetImage(Normal).size().height() / 8) + 40 + 140);  //+..是为了给其他功能控件腾出空间
 
     // 设置窗口属性
-    setWindowTitle("ChatNG");
+    setWindowTitle("VMAgent");
     move(100, 100);
 
     setWindowFlags(Qt::FramelessWindowHint);  // 无边框
@@ -92,8 +98,6 @@ QTWidgetsApp::QTWidgetsApp(QWidget* parent)
 
 }
 
-QTWidgetsApp::~QTWidgetsApp() {}
-
 // 绘制窗口内容
 void QTWidgetsApp::paintEvent(QPaintEvent* event)
 {
@@ -142,6 +146,7 @@ void QTWidgetsApp::mouseMoveEvent(QMouseEvent* event)
 void QTWidgetsApp::contextMenuEvent(QContextMenuEvent* event)
 {
     QMenu menu(this);
+    menu.addAction("setting", this, &QTWidgetsApp::onConfigMenuButtonClicked);
     menu.addAction("exit", qApp, &QApplication::quit);
     menu.exec(event->globalPos());
 }
@@ -194,7 +199,7 @@ void QTWidgetsApp::onMicrophoneButtonClicked()
     }
 }
 
-//处理文本输入按钮点击事件
+// 处理文本输入按钮点击事件
 void QTWidgetsApp::onTextInputButtonClicked()
 {
     QPushButton* textInputBtn = findChild<QPushButton*>("TextInputButton");
@@ -219,7 +224,7 @@ void QTWidgetsApp::onTextInputButtonClicked()
     }
 }
 
-//处理切换AI按钮点击事件
+// 处理切换AI按钮点击事件
 void QTWidgetsApp::onSwitchAiButtonClicked()
 {
     if (ai_manager.getCurrentAiIndex() < ai_manager.getAICount()-1) {
@@ -231,7 +236,7 @@ void QTWidgetsApp::onSwitchAiButtonClicked()
 	repaint();
 }
 
-//处理发送文本按钮点击事件
+// 处理发送文本按钮点击事件
 void QTWidgetsApp::onSendTextButtonClicked()
 {
     QTextEdit* textInputBox = findChild<QTextEdit*>("TestInputBox");
@@ -254,6 +259,7 @@ void QTWidgetsApp::onSendTextButtonClicked()
 	textInputBox->clear();  // 清空输入框
 }
 
+// 切换聊天角色
 void QTWidgetsApp::onComputerManagerAiButtonClicked()
 {
     QPushButton* computerManagerAiBtn = findChild<QPushButton*>("ComputerManagerAIButton");
@@ -274,6 +280,12 @@ void QTWidgetsApp::onComputerManagerAiButtonClicked()
 		isComputerManagerAISelected = false;
 		repaint();
     }
+}
+
+//显示设置菜单
+void QTWidgetsApp::onConfigMenuButtonClicked()
+{
+    configWindow_ui.show();
 }
 
 void QTWidgetsApp::UseChatAI(const std::string& user_input)

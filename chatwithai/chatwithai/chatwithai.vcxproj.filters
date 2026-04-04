@@ -19,6 +19,18 @@
     <Filter Include="头文件\AIAgent">
       <UniqueIdentifier>{4960f6d1-2fe5-4f57-9de8-524f08bc018b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{ef5f5ae7-de17-4ed5-80cb-1a6135788ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{25b6f101-b4b5-4b1d-a187-c9b14739e094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Save">
+      <UniqueIdentifier>{1b738ac6-b66c-4f0a-9eb5-35751c3b57d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Save">
+      <UniqueIdentifier>{a0e63c26-b503-4c5a-9d50-50c78928a6e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -34,9 +46,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="PythonTTS.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="QTWidgetsApp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CommonUtils.cpp">
@@ -62,6 +71,18 @@
     </ClCompile>
     <ClCompile Include="AIChat_ComputerEmployee.cpp">
       <Filter>源文件\AIAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="AIChat_ComputerSecurityOfficer.cpp">
+      <Filter>源文件\AIAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="QTWidgetsApp.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="QTConfigWindowApp.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSave.cpp">
+      <Filter>源文件\Save</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +124,12 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIChat_ComputerSecurityOfficer.h">
+      <Filter>头文件\AIAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSave.h">
+      <Filter>头文件\Save</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -159,16 +186,20 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="QTWidgetsApp.h">
-      <Filter>头文件</Filter>
-    </QtMoc>
-  </ItemGroup>
-  <ItemGroup>
     <QtUic Include="MainWindow.ui" />
+    <QtUic Include="ConfigWindow.ui" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="chatwithai.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QTWidgetsApp.h">
+      <Filter>头文件\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="QTConfigWindowApp.h">
+      <Filter>头文件\UI</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

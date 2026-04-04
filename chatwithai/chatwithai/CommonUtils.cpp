@@ -1,4 +1,4 @@
-#include "CommonUtils.h"
+﻿#include "CommonUtils.h"
 #include <windows.h>
 #include <iostream>
 #include <conio.h>
@@ -14,6 +14,7 @@
 #include <ctime>
 #include <iomanip>
 #include <sstream>
+#include <filesystem>
 
 
 // UTF-8字符串转换为系统默认编码字符串
@@ -277,6 +278,7 @@ bool CommonUtils::WriteFile(const std::string& filePath, const std::string& cont
     return true;
 }
 
+//废弃
 std::string CommonUtils::ReadFile(const std::string& filePath)
 {
     std::ifstream file(filePath);
@@ -317,6 +319,7 @@ void CommonUtils::WriteAIDebugLog(const std::string& type, const std::string& co
     }
 }
 
+// 打开控制台
 void CommonUtils::OpenConsole() {
     AllocConsole();
 

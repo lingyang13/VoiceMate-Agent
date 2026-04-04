@@ -1,12 +1,16 @@
-#pragma once
+ï»¿#pragma once
 #include "AIChat.h"
-class AIChat_Bear :
-    public AIChat
+#include <DataSave.h>
+
+class AIChat_Bear : public AIChat
 {
 public:
-	// ¹¹Ôìº¯Êı£º»ùÀà´«ÈëAPIÃÜÔ¿
-    AIChat_Bear(const std::string& api_key = "") :AIChat(api_key) {};
-	// Ai ·ç¸ñ»¯ÌáÊ¾Óï,ÖØÔØ»ùÀàº¯Êı
+	// æ„é€ å‡½æ•°ï¼šåŸºç±»ä¼ å…¥APIå¯†é’¥
+    AIChat_Bear(const std::string& api_key = "") :AIChat(api_key) {
+        SetMaxTokens(DataSave::Get().GetChatRoleTokenLimit());
+        SetMaxTimeoutDuration(DataSave::Get().GetChatRoleTimeout());
+    };
+	// Ai é£æ ¼åŒ–æç¤ºè¯­,é‡è½½åŸºç±»å‡½æ•°
     virtual std::string getSpeaker2Prompt() override;
 
 };

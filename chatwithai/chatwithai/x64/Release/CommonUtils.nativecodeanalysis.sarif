@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35225.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/commonutils.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "694006052fcd6e2b55c4b6a03fcd1afcf1524ae424c86081d004f0daf9ef9b2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/athis/uc++proj/chatwithai_schoolchange/chatwithai/commonutils.h"
+          },
+          "hashes": {
+            "sha-256": "a10a30626b1b81cc559c78c93ab79e73ccf2532d1b0c53dcb4d4342eebea4f46"
+          }
+        }
+      ]
+    }
+  ]
+}

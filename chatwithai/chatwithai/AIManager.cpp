@@ -1,4 +1,4 @@
-#include "AIManager.h"
+ï»¿#include "AIManager.h"
 #include "AIChat_Bear.h"
 #include "AIChat_CatGirl.h"
 #include <QDir>
@@ -6,19 +6,19 @@
 AIManager::AIManager(const std::string& api_key_ai)
 : api_key_ai_(api_key_ai) 
 {
-	// ×¢²áÄ¬ÈÏAI½ÇÉ«£¨¿ÉÒÔ¸ù¾İĞèÒªÌí¼Ó¸ü¶à½ÇÉ«£©
+	// æ³¨å†Œé»˜è®¤AIè§’è‰²ï¼ˆå¯ä»¥æ ¹æ®éœ€è¦æ·»åŠ æ›´å¤šè§’è‰²ï¼‰
 	register_Bear();
 	register_CatGirl();
 }
 
-// ========== ×¢²áĞÜ´ó ==========
+// ========== æ³¨å†Œç†Šå¤§ ==========
 void AIManager::register_Bear() {
     AIPersonality personality;
-	personality.name = "ĞÜ";
-    personality.description = "ÖÇÕß£¬Ç×ÇĞµÄÅóÓÑ£¬Ö±°×ÓĞÉî¶È";
-    personality.tts_voice = "Andre";  // Ä¬ÈÏ"Andre"
+	personality.name = "ç†Š";
+    personality.description = "æ™ºè€…ï¼Œäº²åˆ‡çš„æœ‹å‹ï¼Œç›´ç™½æœ‰æ·±åº¦";
+    personality.tts_voice = "Andre";  // é»˜è®¤"Andre"
 
-    // ÉèÖÃ3ÖÖ×´Ì¬µÄÍ¼Æ¬Â·¾¶£¨¸ù¾İÄãµÄÊµ¼ÊÂ·¾¶ĞŞ¸Ä£©
+    // è®¾ç½®3ç§çŠ¶æ€çš„å›¾ç‰‡è·¯å¾„ï¼ˆæ ¹æ®ä½ çš„å®é™…è·¯å¾„ä¿®æ”¹ï¼‰
     personality.imagePaths[Normal] = "img/Bear.png";
     personality.imagePaths[Thinking] = "img/Bear_Thinking.png";
     personality.imagePaths[Saying] = "img/Bear_Saying.png";
@@ -26,14 +26,14 @@ void AIManager::register_Bear() {
     register_AI<AIChat_Bear>(personality);
 }
 
-// ========== ×¢²áÃ¨Äï ==========
+// ========== æ³¨å†ŒçŒ«å¨˜ ==========
 void AIManager::register_CatGirl() {
     AIPersonality personality;
-    personality.name = "Å´Å´";
-    personality.description = "¿É°®µÄÃ¨Äï°éÂÂ£¬»áÈö½¿¡¢ÓĞĞ¡Æ¢Æø";
-    personality.tts_voice = "Cherry";  // Ä¬ÈÏ"Cherry"
+    personality.name = "ç³¯ç³¯";
+    personality.description = "å¯çˆ±çš„çŒ«å¨˜ä¼´ä¾£ï¼Œä¼šæ’’å¨‡ã€æœ‰å°è„¾æ°”";
+    personality.tts_voice = "Cherry";  // é»˜è®¤"Cherry"
 
-    // ÉèÖÃ3ÖÖ×´Ì¬µÄÍ¼Æ¬Â·¾¶£¨¸ù¾İÄãµÄÊµ¼ÊÂ·¾¶ĞŞ¸Ä£©
+    // è®¾ç½®3ç§çŠ¶æ€çš„å›¾ç‰‡è·¯å¾„ï¼ˆæ ¹æ®ä½ çš„å®é™…è·¯å¾„ä¿®æ”¹ï¼‰
     personality.imagePaths[Normal] = "img/CatGirl.png";
     personality.imagePaths[Thinking] = "img/CatGirl_Thinking.png";
     personality.imagePaths[Saying] = "img/CatGirl_Saying.png";
@@ -41,7 +41,7 @@ void AIManager::register_CatGirl() {
     register_AI<AIChat_CatGirl>(personality);
 }
 
-// ========== ÇĞ»»µ±Ç°AI ==========
+// ========== åˆ‡æ¢å½“å‰AI ==========
 bool AIManager::switchAI(const std::string& name) {
     auto it = ai_components_.find(name);
     if (it == ai_components_.end()) {
@@ -50,7 +50,7 @@ bool AIManager::switchAI(const std::string& name) {
 
     current_ai_name_ = name;
 
-    // ´¥·¢AIÇĞ»»»Øµ÷
+    // è§¦å‘AIåˆ‡æ¢å›è°ƒ
     if (on_ai_changed_) {
         on_ai_changed_(name);
     }
@@ -65,7 +65,7 @@ bool AIManager::switchAI(int index) {
     return switchAI(ai_order_[index]);
 }
 
-// ========== »ñÈ¡µ±Ç°AI ==========
+// ========== è·å–å½“å‰AI ==========
 AIChat* AIManager::getCurrentAI() const {
     auto it = ai_components_.find(current_ai_name_);
     if (it != ai_components_.end()) {
@@ -83,7 +83,7 @@ std::string AIManager::getCurrentTTSVoice() const {
     if (it != ai_components_.end()) {
         return it->second->personality.tts_voice;
     }
-    return u8"Andre";  // Ä¬ÈÏÒôÉ«
+    return u8"Andre";  // é»˜è®¤éŸ³è‰²
 }
 
 QPixmap AIManager::getCurrentPetImage(PetState state) const {
@@ -91,7 +91,7 @@ QPixmap AIManager::getCurrentPetImage(PetState state) const {
     if (it != ai_components_.end()) {
         return it->second->personality.getPetImage(state);
     }
-    return QPixmap();  // ·µ»Ø¿ÕÍ¼Æ¬
+    return QPixmap();  // è¿”å›ç©ºå›¾ç‰‡
 }
 
 int AIManager::getCurrentAiIndex() const
@@ -99,7 +99,7 @@ int AIManager::getCurrentAiIndex() const
 	return std::distance(ai_order_.begin(), std::find(ai_order_.begin(), ai_order_.end(), current_ai_name_));
 }
 
-// ========== »ñÈ¡ËùÓĞAIĞÅÏ¢ ==========
+// ========== è·å–æ‰€æœ‰AIä¿¡æ¯ ==========
 std::vector<std::string> AIManager::getAllAINames() const {
     return ai_order_;
 }
@@ -112,14 +112,14 @@ AIPersonality AIManager::getPersonality(const std::string& name) const {
     return AIPersonality();
 }
 
-// ========== Î¯ÍĞ¸øµ±Ç°AIµÄ·½·¨ ==========
+// ========== å§”æ‰˜ç»™å½“å‰AIçš„æ–¹æ³• ==========
 std::string AIManager::ask(const std::string& question) {
     auto ai = getCurrentAI();
     if (!ai) {
-        return "´íÎó: Ã»ÓĞÑ¡ÖĞµÄAI";
+        return "é”™è¯¯: æ²¡æœ‰é€‰ä¸­çš„AI";
     }
 
-    // µ÷ÓÃAI
+    // è°ƒç”¨AI
     std::string answer = ai->ask(question);
 
     return answer;
@@ -138,7 +138,7 @@ void AIManager::setApiKey(const std::string& api_key_ai) {
     }
 }
 
-// ========== »Øµ÷ÉèÖÃ ==========
+// ========== å›è°ƒè®¾ç½® ==========
 void AIManager::setOnAIChanged(std::function<void(const std::string&)> callback) {
     on_ai_changed_ = callback;
 }

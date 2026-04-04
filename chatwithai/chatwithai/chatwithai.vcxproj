@@ -160,11 +160,14 @@
     <ClCompile Include="AIChat_ComputerBoss.cpp" />
     <ClCompile Include="AIChat_ComputerEmployee.cpp" />
     <ClCompile Include="AIChat_ComputerManager.cpp" />
+    <ClCompile Include="AIChat_ComputerSecurityOfficer.cpp" />
     <ClCompile Include="AIManager.cpp" />
     <ClCompile Include="AudioRecorder.cpp" />
     <ClCompile Include="CommonUtils.cpp" />
+    <ClCompile Include="DataSave.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="PythonTTS.cpp" />
+    <ClCompile Include="QTConfigWindowApp.cpp" />
     <ClCompile Include="QTWidgetsApp.cpp" />
     <ClCompile Include="WhisperASR.cpp" />
   </ItemGroup>
@@ -176,15 +179,19 @@
     <ClInclude Include="AIChat_ComputerBoss.h" />
     <ClInclude Include="AIChat_ComputerEmployee.h" />
     <ClInclude Include="AIChat_ComputerManager.h" />
+    <ClInclude Include="AIChat_ComputerSecurityOfficer.h" />
     <ClInclude Include="AIManager.h" />
     <ClInclude Include="AudioRecorder.h" />
     <ClInclude Include="CommonUtils.h" />
+    <ClInclude Include="DataSave.h" />
     <ClInclude Include="PythonTTS.h" />
     <QtMoc Include="QTWidgetsApp.h" />
+    <QtMoc Include="QTConfigWindowApp.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="WhisperASR.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="ConfigWindow.ui" />
     <QtUic Include="MainWindow.ui" />
   </ItemGroup>
   <ItemGroup>
